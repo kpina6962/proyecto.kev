@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<style>
+	  input{
+		  border: none;
+		  border-bottom: 1px solid;
+		  outline: none;
+	   }
+	   body {
+		background-color: rgb(192, 174, 145);
+	   }
+	   table {
+		background-color: rgb(226, 214, 161);
+	   }
+	  input{
+		background-color: rgb(255, 254, 252);
+	  }
+	  
+	 </style> 
+  </head>
+  <body>
+	
+	  <table border="1" style="width:100%; border-radius: 10px; border-bottom: 7.5px solid rgb(8, 7, 8); border-right:7.5px solid rgb(8, 7, 8) ;  "  align="center" id="principio" >
+		<tr>
+  
+		 <td style="width: 20%; border-right: none; border-left: none; border-bottom: none; border-top: none;" align="center">
+		 <img src="https://piedadmaya.com/wp-content/uploads/2013/04/escudo-de-Colombia-dise%C3%B1o-Carlos-Duque.jpg" width="150px" height="120px">
+		 <br>
+		 </td>
+			  <td style="width: 60%; border-right: none; border-left: none; border-bottom: none; border-top: none;" align="center"  >
+		 <table>
+			 <tr id="texto0"><td align="center">Formato Unico</td></tr> 
+			 <tr id ="texto"><td align="center">Hoja de vida</td></tr>
+			 <tr id="texto1"><td align="center">Persona natural</td></tr>
+			 <tr id="peque"><td align="center">(leyes 190 de 1995, 489 y 443 de 1998)</td></tr>
+		 </table>
+		 </td>
+		 <td  style="width: 20%;border-right: none; border-left: none; border-bottom: none; border-top: none;">
+			 <table >
+				 <tr id="id"><td>Entidad receptora</td></tr>
+				 <tr>
+					 <td><input type="text" value="" id="input-1" style="border: 1px solid;"></td>
+				 </tr>
+			</table>
+		 </td>
+	 </table>
+	
+	</style>
+
+</head>
+<body>
+	
+	<ol><h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 DATOS PERSONALES</h1></ol>
+	<table  border="1" style ="width:100%; border-radius: 10px; border-bottom: 7.5px solid; border-right:7.5px solid  ;  "  align="center">
+		<tr>
+			<td>PRIMER APELLIDO <br><input type="text"style="border-top : none; border-left: none ;border-right: none;">
+		</td>
+			<td>SEGUNDO APELLIDO
+			<br><input type="text"style="border-top : none; border-left: none ;border-right: none;">
+		</td>
+			<td>NOMBRES<br><input type="text"style="border-top : none; border-left: none ;border-right: none;">
+			</td>
+		</tr>
+		<tr>
+			<td>Documento de identificacion <br><label >C.C</label>
+				<input type="radio" name = "identificacion"value ="C.C">  <label >C.E</label>
+				<input type="radio"name = "identificacion"value ="C.E"><label >PAS</label>
+				<input type="radio"name = "identificacion"value = "PAIS">
+				<label >No.   </label><input type="text" style="border-top : none; border-left: none ;border-right: none;"
+				>
+			
+			<td>Sexo <br>
+				
+				<label for="femenino">F</label>
+				<input type="radio" id="femenino" name="sexo" value="F">
+				<label for="masculino">M</label>
+				<input type="radio" id="masculino" name="sexo" value="M">
+                 
+			<td>Nacionalidad &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<LAbel>PAIS</LAbel><br><label>COL</label><input type="radio"><label>EXTRANJERO</label><input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"style="border-top : none; border-left: none ;border-right: none;">  </td>
+			
+		</tr>
+         <tr>
+			<td colspan="3">LIBRETA MILITAR<br><label>PRIMERA CLASE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label><input type="radio"name = "libreta" value = libreta>
+				<label>SEGUNDA CLASE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="radio"name = "libreta" value = libreta><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NUMERO</label><input type="text"style="border-top : none; border-left: none ;border-right: none;"
+				><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DM</label><input type="text"style="border-top : none; border-left: none ;border-right: none;">
+			</td>	
+			<tr>
+				<td>FECHA Y LUGAR DE NACIMIENTO <br><label for="fecha">Fecha</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="date" id="fecha" name="fecha"><br><br>
+					<label for="pais">País</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="text"style="border-top : none; border-left: none ;border-right: none;" id="pais" name="pais"><br><br>
+					<label for="depto">Depto</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="text"style="border-top : none; border-left: none ;border-right: none;" id="depto" name="depto"><br><br>
+					<label for="municipio">Municipio</label>
+					<input type="text" style="border-top : none; border-left: none ;border-right: none;" id="municipio" name="municipio">
+				</td>
+				<td colspan="2">Direccion de correspondecia <br>
+					<input type="text"style="border-top : none; border-left: none ;border-right: none;" id="direccion" name="direccion"><br><br>
+					<label for="pais">País</label>
+					<input type="text"style="border-top : none; border-left: none ;border-right: none;" id="pais" name="pais">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<label for="depto">Depto</label>
+					<input type="text"style="border-top : none; border-left: none ;border-right: none;" id="depto" name="depto"><br><br>
+					<label for="municipio">Municipio</label>
+					<input type="text"style="border-top : none; border-left: none ;border-right: none;" id="municipio" name="municipio"><br><br>
+					<label for="telefono">Telefono</label>
+					<input type="tel" style="border-top : none; border-left: none ;border-right: none;" id="telefono" name="telefono">
+					<label for="email">email</label>
+					<input type="email" style="border-top : none; border-left: none ;border-right: none;" id="email" name="email"><br><br>
+				  </form></td>
+
+					
+				
+			</tr>
+			
+	</table>
+	<ol id="uno"> <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. FORMACION ACADEMICA</h2> </ol>
+
+	<table  border="1"  style="width: 100%; border-right:7.5px solid ;" align="center">
+	  <tr>
+		<td>
+		  <form>
+			<label id="txt">EDUCACIÓN BÁSICA Y MEDIA</label><br>
+			 <label> CON UNA X EL ÚLTIMO GRADO APROBADO ( LOS GRADOS DE 1o. A 6o. DE BACHILLERATO EQUIVALEN A LOS GRADOS 6o. A 11o. DE
+			  EDUCACIÓN BÁSICA SECUNDARIA Y MEDIA )</label>
+		  </form>
+			  <table border="1" style="width: 80%;" align="center">
+				  <tr>
+					  <td colspan="11" align="center">EDUCACIÓN BASICA</td>
+					  <td>TITULO OBTENIDO:
+					  <input id="borde2" type="text" ></td>
+				  </tr>
+				 <tr>
+				  <td style="width: 10%;" colspan="5"align="center">PRIMARIA</td>
+				  <td style="width: 10%;" colspan="4"align="center">SECUNDARIA</td>
+				  <td style="width: 5%;" colspan="2" align="center">MEDIA</td>
+				  <td style="width: 40%;" colspan="1">FECHA DE GRADO
+				  <input id="borde2" type="date" ></td>
+				 </tr>
+				 <tr align="center">
+				  <td>1o.<input type="checkbox" ></td>
+				  <td>2o.<input type="checkbox" ></td>
+				  <td>3o.<input type="checkbox" ></td>
+				  <td>4o.<input type="checkbox" ></td>
+				  <td>5o.<input type="checkbox" value="1o."></td>
+				  <td>6o.<input type="checkbox" value="1o."></td>
+				  <td>7o.<input type="checkbox" value="1o."></td>
+				  <td>8o.<input type="checkbox" value="1o."></td>
+				  <td>9o.<input type="checkbox" value="1o."></td>
+				  <td>10.<input type="checkbox" value="1o."></td>
+				  <td>11.<input type="checkbox" value="1o."></td>
+				  <td> MES <input  type="text"  style="width: 20%;border: 1px solid ;"> &nbsp;&nbsp; AÑO <input  type="text" style="width: 20%;border: 1px solid;"></td>
+				 </tr>
+				</tr>
+		
+			  </table>
+			</table>
+			<table  <table  border="1"  style="width: 100%;border-right:7.5px solid" align="center">
+				<tr>
+				  <td>
+					<form>
+					  <label id="txt">EDUCACION SUPERIOR (PREGRADO Y POSTGRADO)</label><br>
+					   <label> DILIGENCIE ESTE PUNTO EN ESTRICTO ORDEN CRONOLÓGICO, EN MODALIDAD ACADÉMICA ESCRIBA: <br>
+						<strong>TC</strong> (TÉCNICA),&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong >TL</strong> (TECNOLÓGICA),&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>TE</strong>  (TECNOLÓGICA ESPECIALIZADA),&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>UN</strong> (UNIVERSITARIA), <br>
+						<strong>ES</strong> (ESPECIALIZACIÓN), &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>MG</strong> (MAESTRÍA O MAGISTER),&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>DOC</strong> (DOCTORADO O PHD), <br>
+						RELACIONE AL FRENTE EL NÚMERO DE LA TARJETA PROFESIONAL (SI ÉSTA HA SIDO PREVISTA EN UNA LEY).</label>
+					   </form>
+						<table id="tablaa"  border="1" style="width: 80%;" align="center"> 
+						   <tr>
+							<td rowspan="2">Modalidad Academica</td>
+							<td rowspan="2">No. Semestres aprobados</td>
+							<td colspan="2">Graduado</td>
+							<td rowspan="2"> Nombre de los estudios o titulo obtenido</td>
+							<td colspan="5">Terminacion</td>
+							<td rowspan="2">No. de tarjeta profesional</td>
+						   </tr>
+						   <td colspan="1">Si</td>
+						   <td colspan="1">No</td>
+						   <td colspan="1">Mes</td>
+						   <td colspan="4">Año</td>
+						   </tr>
+						   <tr>
+							<td> <input type="text" style="width: 98%;border: none;"> </td>
+							<td> <input type="number"style="width: 180px;border: none;"> </td>
+							<td><input type="checkbox"></td>
+							<td><input type="checkbox"></td>
+							<td> <input type="text" style="width: 98%;border: none;">  </td>
+							<td><input type="text" style="width: 98%;border: none;"></td>
+							<td><input type="number" style="width: 30px;border: none;"></td>
+							<td><input type="number" style="width: 30px;border: none;"></td>
+							<td><input type="number" style="width: 30px;border: none;"></td>
+							<td><input type="number" style="width: 30px;border: none;"></td>
+							<td> <input type="text" style="width: 98%;border: none;">
+						  </tr>
+						  <tr>
+							<td> <input type="text" style="width: 98%;border: none;"> </td>
+							<td> <input type="number"style="width: 180px;border: none;"> </td>
+							<td><input type="checkbox"></td>
+							<td><input type="checkbox"></td>
+							<td> <input type="text" style="width: 98%;border: none;">  </td>
+							<td><input type="text" style="width: 98%;border: none;"></td>
+							<td><input type="number" style="width: 30px;border: none;"></td>
+							<td><input type="number" style="width: 30px;border: none;"></td>
+							<td><input type="number" style="width: 30px;border: none;"></td>
+							<td><input type="number" style="width: 30px;border: none;"></td>
+							<td> <input type="text" style="width: 98%;border: none;">
+						  </tr>
+						  <tr>
+							<td> <input type="text" style="width: 98%;border: none;"> </td>
+							<td> <input type="number"style="width: 180px;border: none;"> </td>
+							<td><input type="checkbox"></td>
+							<td><input type="checkbox"></td>
+							<td> <input type="text" style="width: 98%;border: none;">  </td>
+							<td><input type="text" style="width: 98%;border: none;"></td>
+							<td><input type="number" style="width: 30px;border: none;"></td>
+							<td><input type="number" style="width: 30px;border: none;"></td>
+							<td><input type="number" style="width: 30px;border: none;"></td>
+							<td><input type="number" style="width: 30px;border: none;"></td>
+							<td> <input type="text" style="width: 98%;border: none;">
+						  </tr>
+						  <tr>
+							<td> <input type="text" style="width: 98%;border: none;"> </td>
+							<td> <input type="number"style="width: 180px;border: none;"> </td>
+							<td><input type="checkbox"></td>
+							<td><input type="checkbox"></td>
+							<td> <input type="text" style="width: 98%;border: none;">  </td>
+							<td><input type="text" style="width: 98%;border: none;"></td>
+							<td><input type="number" style="width: 30px;border: none;"></td>
+							<td><input type="number" style="width: 30px;border: none;"></td>
+							<td><input type="number" style="width: 30px;border: none;"></td>
+							<td><input type="number" style="width: 30px;border: none;"></td>
+							<td> <input type="text" style="width: 98%;border: none;">
+						  </tr>
+						  <tr>
+							<td> <input type="text" style="width: 98%;border: none;"> </td>
+							<td> <input type="number"style="width: 180px;border: none;"> </td>
+							<td><input type="checkbox"></td>
+							<td><input type="checkbox"></td>
+							<td> <input type="text" style="width: 98%;border: none;">  </td>
+							<td><input type="text" style="width: 98%;border: none;"></td>
+							<td><input type="number" style="width: 30px;border: none;"></td>
+							<td><input type="number" style="width: 30px;border: none;"></td>
+							<td><input type="number" style="width: 30px;border: none;"></td>
+							<td><input type="number" style="width: 30px;border: none;"></td>
+							<td> <input type="text" style="width: 98%;border: none;">
+						  </tr>
+						</table>
+					</td>
+				</tr>
+			  </table>
+			  <table  border="1"  style="width:100%; border-bottom: 7.5px solid; border-right:7.5px solid" align="center">
+				<tr>
+				  <td>
+					<form>
+					   <label> ESPECÍFIQUE LOS IDIOMAS DIFERENTES AL ESPAÑOL QUE: HABLA, LEE, ESCRIBE DE FORMA, REGULAR <strong>(R)</strong>, BIEN <strong>(B)</strong> O MUY BIEN <strong>(MB)</strong></label>
+					</form>
+					
+					<table id="ultimo" border="1px solid black " style="width: 80%; border-radius: 10px;" align="center"> 
+					  <tr>
+						<td rowspan="2" style="width: 45%;">Idioma</td>
+						<td colspan="3" style="width: 15%;;">lo habla</td>
+						<td colspan="3" style="width: 15%;;">lo lee</td>
+						<td colspan="3" style="width: 15%;;">lo escribe</td>
+					  </tr>
+					  <tr>
+						<td>r</td>
+						<td>b</td>
+						<td>mb</td>
+						<td>r</td>
+						<td>b</td>
+						<td>mb</td> 
+						<td>r</td>
+						<td>b</td>
+						<td>mb</td>
+					  </tr>
+					  <tr>
+						<td><input type="text" style="border: none;"></td>
+						<td><input type="checkbox"></td>
+						<td><input type="checkbox"></td>
+						<td><input type="checkbox"></td>
+						<td><input type="checkbox"></td>
+						<td><input type="checkbox"></td>
+						<td><input type="checkbox"></td>
+						<td><input type="checkbox"></td>
+						<td><input type="checkbox"></td>
+						<td><input type="checkbox"></td>
+					  </tr>
+					  <tr>
+						<td><input type="text" style="border: none;"></td>
+						<td><input type="checkbox"></td>
+						<td><input type="checkbox"></td>
+						<td><input type="checkbox"></td>
+						<td><input type="checkbox"></td>
+						<td><input type="checkbox"></td>
+						<td><input type="checkbox"></td>
+						<td><input type="checkbox"></td>
+						<td><input type="checkbox"></td>
+						<td><input type="checkbox"></td>
+					  </tr>
+			  
+					</table>
+				</tr>
+			  
+			  </table>
+			  </body>
+			  </html>
